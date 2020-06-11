@@ -1,0 +1,61 @@
+html {
+    background: #3a0707;
+}
+.white-keys kbd {
+    background: white;
+    width: 4vw;
+    height: 20vh;
+    display: inline-block;
+    text-align: center;
+    line-height: 300px;
+    border: solid gray;
+    margin-left: -5px;
+    position: relative;
+    color: navy;
+}
+.container {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+}
+.black-keys kbd {
+    background: black;
+    width: 2vw;
+    height: 15vh;
+    display: inline-block;
+    text-align: center;
+    line-height: 150px;
+    position: relative;
+    color: floralwhite;
+}
+/*TODO: responsive black buttons*/
+#black-w {
+    position: relative;
+    top: -200px;
+    left: 60px;
+}
+#black-e {
+    position: relative;
+    top: -200px;
+    left: 100px;
+}
+#black-t {
+    position: relative;
+    top: -200px;
+    left: 220px;
+}
+#black-y {
+    position: relative;
+    top: -200px;
+    left: 260px;
+}
+#black-u {
+    position: relative;
+    top: -200px;
+    left: 300px;
+}
